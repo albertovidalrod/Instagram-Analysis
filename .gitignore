@@ -1,9 +1,10 @@
 /support files/defines.py
-/support files/__pycache__
+*__pycache__/
 
 Bokeh-Intermediate steps.ipynb
 Gather_data.ipynb
 
-.DS_Store
+*.DS_Store
+.env
 
 
