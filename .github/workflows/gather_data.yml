@@ -6,12 +6,12 @@ on:
   workflow_dispatch:
 
 env:
-    access_token = ${{ secrets.ACCESS_TOKEN }}
-    client_id = ${{ secrets.CLIENT_ID }}
-    client_secret = ${{ secrets.CLIENT_SECRET }}
-    ig_username = ${{ secrets.IG_USERNAME }}
-    instagram_account_id = ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
-    page_id = ${{ secrets.PAGE_ID }}
+    access_token: ${{ secrets.ACCESS_TOKEN }}
+    client_id: ${{ secrets.CLIENT_ID }}
+    client_secret: ${{ secrets.CLIENT_SECRET }}
+    ig_username: ${{ secrets.IG_USERNAME }}
+    instagram_account_id: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+    page_id: ${{ secrets.PAGE_ID }}
 
 jobs:
   build:
