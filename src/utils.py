@@ -2,9 +2,10 @@ import os
 import json
 import requests
 
-from dotenv import load_dotenv
+# Unlock the following two lines to run script locally
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 
 def get_creds():

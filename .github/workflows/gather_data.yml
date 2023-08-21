@@ -1,8 +1,8 @@
 name: run API_pull_data.py
 
 on:
-#   schedule:
-#     - cron: 30 12 * * 2 # At 12:30 every Tuesday
+  schedule:
+    - cron: 30 12 * * 5 # At 12:30 every Friday
   workflow_dispatch:
 
 env:
@@ -37,7 +37,7 @@ jobs:
           
       - name: execute py script # run main.py
         run: |
-          python API_pull_data_gh_actions.py
+          python API_pull_data.py
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
